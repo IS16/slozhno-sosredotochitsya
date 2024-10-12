@@ -2,3 +2,41 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --main-font-family: 'IBM Plex mono', 'sans-serif';
+  --title-text-shadow-color: #FF0070;
+  --article-title-color: var(--background-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-text-color: #FF0070;
+    --background-image: url(../images/cover-image-dark.png);
+    --background-color: #000028;
+    --title-text-color: #DB00FF;
+    --rec-text-color: var(--main-text-color);
+    --corners-color: var(--title-text-shadow-color);
+    --button-hover-color: 1px solid rgba(255, 0, 112, 0.4);
+    --article-title-background-color: var(--main-text-color);
+    --section-tilte-text-color: var(--title-text-shadow-color);
+    --article-text-color: #F1B2CE;
+    --article-link-shadow-color: var(--main-text-color);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-text-color: #353430;
+    --background-image: url(../images/cover-image-light.png);
+    --background-color: #FFF1F7;
+    --title-text-color: #FFC2E6;
+    --rec-text-color: var(--background-color);
+    --corners-color: var(--main-text-color);
+    --button-hover-color: 1px solid rgba(50, 49, 45, 0.4);
+    --article-title-background-color: #FF8DCB;
+    --section-tilte-text-color: var(--main-text-color);
+    --article-text-color: var(--main-text-color);
+    --article-link-shadow-color: var(--title-text-color);
+  }
+}
