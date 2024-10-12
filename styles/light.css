@@ -21,3 +21,7 @@
   --article-text-color: var(--main-text-color);
   --article-link-shadow-color: var(--title-text-color);
 }
+
+.page.theme_light .header__rec {
+  display: none;
+}
