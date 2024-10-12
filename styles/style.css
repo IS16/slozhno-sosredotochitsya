@@ -4,6 +4,7 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background: var(--background-image) no-repeat top center, var(--background-color);
   background-size: auto 768px;
+  background-attachment: fixed;
   color: var(--background-color);
 }
 
