@@ -21,3 +21,19 @@
   --article-text-color: #F1B2CE;
   --article-link-shadow-color: var(--main-text-color);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-text-color: #FF0070;
+    --background-image: url(../images/cover-image-dark.png);
+    --background-color: #000028;
+    --title-text-color: #DB00FF;
+    --rec-text-color: var(--main-text-color);
+    --corners-color: var(--title-text-shadow-color);
+    --button-hover-color: 1px solid rgba(255, 0, 112, 0.4);
+    --article-title-background-color: var(--main-text-color);
+    --section-tilte-text-color: var(--title-text-shadow-color);
+    --article-text-color: #F1B2CE;
+    --article-link-shadow-color: var(--main-text-color);
+  }
+}
