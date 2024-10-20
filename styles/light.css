@@ -15,11 +15,12 @@
   --title-text-color: #FFC2E6;
   --rec-text-color: var(--background-color);
   --corners-color: var(--main-text-color);
+  --article-title-color: #000028;
   --button-hover-color: 1px solid rgba(50, 49, 45, 0.4);
   --article-title-background-color: #FF8DCB;
   --section-tilte-text-color: var(--main-text-color);
   --article-text-color: var(--main-text-color);
-  --article-link-shadow-color: var(--title-text-color);
+  --article-link-shadow-color: var(--article-title-background-color);
 }
 
 .page.theme_light .header__rec {
@@ -34,10 +35,11 @@
     --title-text-color: #FFC2E6;
     --rec-text-color: var(--background-color);
     --corners-color: var(--main-text-color);
+    --article-title-color: #000028;
     --button-hover-color: 1px solid rgba(50, 49, 45, 0.4);
     --article-title-background-color: #FF8DCB;
     --section-tilte-text-color: var(--main-text-color);
     --article-text-color: var(--main-text-color);
-    --article-link-shadow-color: var(--title-text-color);
+    --article-link-shadow-color: var(--article-title-background-color);
   }
 }
